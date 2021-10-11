@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>MX-CNC Sebastian Mirys - Obróbka CNC</title>
 </head>
 
@@ -24,7 +26,8 @@
             </div>
 
             <nav class="text__nav">
-                <a href="" class="nav__link">o nas</a>
+                <a href="index.html" class="nav__link nav__link--active">strona główna</a>
+                <a href="o-nas.html" class="nav__link">o nas</a>
                 <a href="" class="nav__link">oferta</a>
                 <a href="" class="nav__link">kontakt</a>
             </nav>
@@ -40,7 +43,7 @@
     <!--
         CONTENT
     -->
-    <div class="content">
+    <div class="content content__main">
         <div class="content__card">
             <div class="card__svg">
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="490.728px" height="490.728px" viewBox="0 0 490.728 490.728" style="enable-background:new 0 0 490.728 490.728;" xml:space="preserve">
@@ -176,11 +179,35 @@
             <p class="card__text">Dbamy, aby materiał dostarczony przez producenta był wykorzystany optymalnie - każdą końcówkę surowca można wykorzystać do produkcji innego elementu. </p>
         </div>
     </div>
+
+    <!--
+        FOOTER
+    -->
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="footer__menu">
+                <a href="index.html" class="footer__link footer__link--active">strona główna</a>
+                <a href="o-nas.html" class="footer__link">o nas</a>
+                <a href="" class="footer__link">oferta</a>
+                <a href="" class="footer__link">kontakt</a>
+            </div>
+            <div class="footer__data">
+                <p class="data__paragraph">MX-CNC</p>
+                <p class="data__paragraph">Sebastian Mirys</p>
+                <p class="data__paragraph">ul. Brukowa 26</p>
+                <p class="data__paragraph">91-341 Łódź</p>
+                <p class="data__paragraph">REGON: 101438340</p>
+                <p class="data__paragraph">NIP: 982-023-58-76</p>
+            </div>
+        </div>
+        <div class="footer__author">
+            <p class="author__name">2021 &copy;
+                <a href="https://tpawelec.github.io" target="_blank" rel="noopener noreferrer" class="author__link">
+                Tomasz Pawelec
+                </a></p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
-
-<!--
-    link do karuzeli
-    https://codepen.io/flowrome/pen/abowVRE
--->
