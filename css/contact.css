@@ -1,0 +1,48 @@
+.content__contact {
+    padding: 200px 200px 100px 200px;
+    justify-content: space-around;
+    color: var(--white);
+    font-size: 30px;
+}
+
+.contact__map {
+    height: 500px;
+    width: 500px;
+}
+
+.contact__map img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.data__address {
+    margin-bottom: 50px;
+}
+
+.data__contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.data__contact a {
+    height: 40px;
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.data__contact svg {
+    fill: var(--white);
+    height: 40px;
+    width: 40px;
+    margin-right: 25px;
+}
+
+.data__contact span {
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+}
