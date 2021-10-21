@@ -1,0 +1,28 @@
+.content__offer {
+    display: block;
+    padding: 100px;
+}
+
+.offer__img {
+    width: 700px;
+    margin: auto;
+    position: relative;
+    left: -15%;
+    mask-image: -webkit-linear-gradient(to right, black 0%, transparent 100%);
+    mask-image: -moz-linear-gradient(to right, black 0%, transparent 100%);
+    mask-image: -o-linear-gradient(to right, black 0%, transparent 100%);
+    mask-image: linear-gradient(to right, black 0%, transparent 100%);
+    -webkit-mask-image: -webkit-linear-gradient(to right, black 0%, transparent 100%);
+    -webkit-mask-image: -moz-linear-gradient(to right, black 0%, transparent 100%);
+    -webkit-mask-image: -o-linear-gradient(to right, black 0%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 0%, transparent 100%);
+}
+
+.offer__text {
+    width: 700px;
+    position: absolute;
+    color: var(--white);
+    font-size: 24px;
+    top: 20%;
+    left: 50%;
+}
