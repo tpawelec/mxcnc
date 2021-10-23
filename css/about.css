@@ -1,27 +1,23 @@
 .content__about {
-    display: block;
+    align-items: center;
     padding: 200px 200px 100px 200px;
 }
 
 .about__image {
     position: relative;
+    width: 40vw;
     height: 400px;
-    width: 400px;
-    left: 100px;
-}
-
-.about__image:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--white-opacity);
+    mask-image: -webkit-linear-gradient(to right, black 0%, transparent 100%);
+    mask-image: -moz-linear-gradient(to right, black 0%, transparent 100%);
+    mask-image: -o-linear-gradient(to right, black 0%, transparent 100%);
+    mask-image: linear-gradient(to right, black 0%, transparent 100%);
+    -webkit-mask-image: -webkit-linear-gradient(to right, black 0%, transparent 100%);
+    -webkit-mask-image: -moz-linear-gradient(to right, black 0%, transparent 100%);
+    -webkit-mask-image: -o-linear-gradient(to right, black 0%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 0%, transparent 100%);
 }
 
 .about__image img {
-    width: 100%;
     height: 100%;
     object-fit: cover;
 }
@@ -29,11 +25,73 @@
 .about__text {
     color: var(--white);
     font-size: 24px;
-    background-color: var(--red-opacity);
     padding: 10px;
     text-align: justify;
-    width: 70%;
+    width: 70vw;
     position: relative;
-    left: 360px;
-    top: -90px;
+    left: -50px;
+}
+
+@media (max-width: 1500px) {
+    .content__about {
+        align-items: center;
+        padding: 100px 50px 100px 50px;
+    }
+    .about__image {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content__about {
+        padding: 100px 50px 100px 50px;
+    }
+    .about__image {
+        width: 100vw;
+        mask-image: -webkit-linear-gradient(to right, black 0%, transparent 50%);
+        mask-image: -moz-linear-gradient(to right, black 0%, transparent 50%);
+        mask-image: -o-linear-gradient(to right, black 0%, transparent 50%);
+        mask-image: linear-gradient(to right, black 0%, transparent 50%);
+        -webkit-mask-image: -webkit-linear-gradient(to right, black 0%, transparent 50%);
+        -webkit-mask-image: -moz-linear-gradient(to right, black 0%, transparent 50%);
+        -webkit-mask-image: -o-linear-gradient(to right, black 0%, transparent 50%);
+        -webkit-mask-image: linear-gradient(to right, black 0%, transparent 50%);
+    }
+    .about__text {
+        position: absolute;
+        left: 22%;
+    }
+}
+
+@media (max-width: 800px) {
+    .content__about {
+        padding: 50px 0px 50px 0px;
+    }
+    .about__image {
+        width: 100vw;
+        mask-image: -webkit-linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+        mask-image: -moz-linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+        mask-image: -o-linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+        mask-image: linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+        -webkit-mask-image: -webkit-linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+        -webkit-mask-image: -moz-linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+        -webkit-mask-image: -o-linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+        -webkit-mask-image: linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+    }
+    .about__image img {
+        width: 100%;
+    }
+    .about__text {
+        width: 100%;
+        padding: 50px;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about__text {
+        font-size: 16px;
+    }
 }
