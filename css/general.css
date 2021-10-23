@@ -93,22 +93,22 @@ body {
 
 .bg__img:nth-of-type(1) {
     animation-delay: 9s;
-    background-image: url('../assets/bg1.jpg');
+    background-image: url('../assets/bg1.webp');
 }
 
 .bg__img:nth-of-type(2) {
     animation-delay: 6s;
-    background-image: url('../assets/bg2.jpg');
+    background-image: url('../assets/bg2.webp');
 }
 
 .bg__img:nth-of-type(3) {
     animation-delay: 3s;
-    background-image: url('../assets/bg3.jpg');
+    background-image: url('../assets/bg3.webp');
 }
 
 .bg__img:nth-of-type(4) {
     animation-delay: 0s;
-    background-image: url('../assets/bg4.jpg');
+    background-image: url('../assets/bg4.webp');
 }
 
 .header__bg:after {
@@ -187,16 +187,16 @@ body {
 
 @media (max-width: 1500px) {
     .bg__img:nth-of-type(1) {
-        background-image: url('../assets/bg1-1500.jpg');
+        background-image: url('../assets/bg1-1500.webp');
     }
     .bg__img:nth-of-type(2) {
-        background-image: url('../assets/bg2-1500.jpg');
+        background-image: url('../assets/bg2-1500.webp');
     }
     .bg__img:nth-of-type(3) {
-        background-image: url('../assets/bg3-1500.jpg');
+        background-image: url('../assets/bg3-1500.webp');
     }
     .bg__img:nth-of-type(4) {
-        background-image: url('../assets/bg4-1500.jpg');
+        background-image: url('../assets/bg4-1500.webp');
     }
 }
 
@@ -209,16 +209,16 @@ body {
         font-size: 26px;
     }
     .bg__img:nth-of-type(1) {
-        background-image: url('../assets/bg1-1500.jpg');
+        background-image: url('../assets/bg1-1500.webp');
     }
     .bg__img:nth-of-type(2) {
-        background-image: url('../assets/bg2-1500.jpg');
+        background-image: url('../assets/bg2-1500.webp');
     }
     .bg__img:nth-of-type(3) {
-        background-image: url('../assets/bg3-1500.jpg');
+        background-image: url('../assets/bg3-1500.webp');
     }
     .bg__img:nth-of-type(4) {
-        background-image: url('../assets/bg4-1500.jpg');
+        background-image: url('../assets/bg4-1500.webp');
     }
     .content {
         padding: 50px 0;
@@ -233,16 +233,16 @@ body {
         font-size: 16px;
     }
     .bg__img:nth-of-type(1) {
-        background-image: url('../assets/bg1-1000.jpg');
+        background-image: url('../assets/bg1-1000.webp');
     }
     .bg__img:nth-of-type(2) {
-        background-image: url('../assets/bg2-1000.jpg');
+        background-image: url('../assets/bg2-1000.webp');
     }
     .bg__img:nth-of-type(3) {
-        background-image: url('../assets/bg3-1000.jpg');
+        background-image: url('../assets/bg3-1000.webp');
     }
     .bg__img:nth-of-type(4) {
-        background-image: url('../assets/bg4-1000.jpg');
+        background-image: url('../assets/bg4-1000.webp');
     }
     .content {
         max-height: 500px;
@@ -258,16 +258,16 @@ body {
 
 @media (max-width: 800px) {
     .bg__img:nth-of-type(1) {
-        background-image: url('../assets/bg1-800.jpg');
+        background-image: url('../assets/bg1-800.webp');
     }
     .bg__img:nth-of-type(2) {
-        background-image: url('../assets/bg2-800.jpg');
+        background-image: url('../assets/bg2-800.webp');
     }
     .bg__img:nth-of-type(3) {
-        background-image: url('../assets/bg3-800.jpg');
+        background-image: url('../assets/bg3-800.webp');
     }
     .bg__img:nth-of-type(4) {
-        background-image: url('../assets/bg4-800.jpg');
+        background-image: url('../assets/bg4-800.webp');
     }
 }
 
@@ -320,16 +320,16 @@ body {
         display: block;
     }
     .bg__img:nth-of-type(1) {
-        background-image: url('../assets/bg1-600.jpg');
+        background-image: url('../assets/bg1-600.webp');
     }
     .bg__img:nth-of-type(2) {
-        background-image: url('../assets/bg2-600.jpg');
+        background-image: url('../assets/bg2-600.webp');
     }
     .bg__img:nth-of-type(3) {
-        background-image: url('../assets/bg3-600.jpg');
+        background-image: url('../assets/bg3-600.webp');
     }
     .bg__img:nth-of-type(4) {
-        background-image: url('../assets/bg4-600.jpg');
+        background-image: url('../assets/bg4-600.webp');
     }
 }
 
@@ -362,19 +362,19 @@ body {
     }
     .bg__img:nth-of-type(1) {
         animation-delay: 9s;
-        background-image: url('../assets/bg1-300.jpg');
+        background-image: url('../assets/bg1-300.webp');
     }
     .bg__img:nth-of-type(2) {
         animation-delay: 6s;
-        background-image: url('../assets/bg2-300.jpg');
+        background-image: url('../assets/bg2-300.webp');
     }
     .bg__img:nth-of-type(3) {
         animation-delay: 3s;
-        background-image: url('../assets/bg3-300.jpg');
+        background-image: url('../assets/bg3-300.webp');
     }
     .bg__img:nth-of-type(4) {
         animation-delay: 0s;
-        background-image: url('../assets/bg4-300.jpg');
+        background-image: url('../assets/bg4-300.webp');
     }
     .content {
         max-height: 500px;
