@@ -187,16 +187,16 @@ body {
 
 @media (max-width: 1500px) {
     .bg__img:nth-of-type(1) {
-        background-image: url('../assets/bg1.jpg-1500');
+        background-image: url('../assets/bg1-1500.jpg');
     }
     .bg__img:nth-of-type(2) {
-        background-image: url('../assets/bg2.jpg-1500');
+        background-image: url('../assets/bg2-1500.jpg');
     }
     .bg__img:nth-of-type(3) {
-        background-image: url('../assets/bg3.jpg-1500');
+        background-image: url('../assets/bg3-1500.jpg');
     }
     .bg__img:nth-of-type(4) {
-        background-image: url('../assets/bg4.jpg-1500');
+        background-image: url('../assets/bg4-1500.jpg');
     }
 }
 
